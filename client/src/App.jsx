@@ -6,9 +6,12 @@ import Profile from "./pages/profile"
 import SignIn from "./pages/signIn"
 import SignUp from "./pages/signUp"
 
+import Header from './components/header.jsx'
+
 export default function App() {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
 
     <Route path='/' element={<Home/>}></Route>
